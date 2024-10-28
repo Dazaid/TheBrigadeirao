@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("fonts/bebas_neue/BebasNeue-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Slate Light";
+  src: url("/fonts/slate/SlateLightCn.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.slate-light {
+  font-family: "Slate Light", sans-serif;
+  font-weight: 500;
+}
+
+.bebas-neue {
+  font-family: "Bebas Neue", sans-serif;
+}
+.green-gradient {
+  background: rgb(73, 168, 77);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(73, 168, 77, 1) 0%,
+    rgba(144, 255, 97, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(73, 168, 77, 1) 0%,
+    rgba(144, 255, 97, 1) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(73, 168, 77, 1) 0%,
+    rgba(144, 255, 97, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#49a84d",endColorstr="#90ff61",GradientType=1);
+}
+.kon-gradient{
+    background: #000000;
+    background: linear-gradient(to right, #000000 20%, #000000 50%, #000000 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.kon-gradient:hover {
+  background: #552095;
+  background: linear-gradient(to right, #552095 20%, #000000 50%, #735502 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
