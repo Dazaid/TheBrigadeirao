@@ -64,3 +64,38 @@ body {
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
 }
+
+
+.menu-container {
+  position: relative;
+  right: 11vw;
+}
+
+.menu-toggle {
+  cursor: pointer;
+
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #808066;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 8px 0;
+  margin-top: 8px;
+  border-radius: 4px;
+  width: 80vw;
+  text-align: center;
+}
+
+.dropdown a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #6a6a54;
+}
