@@ -15,12 +15,7 @@ body {
   font-style: normal;
 }
 
-@font-face {
-  font-family: "Slate Light";
-  src: url("/fonts/slate/SlateLightCn.TTF") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 .slate-light {
   font-family: "Slate Light", sans-serif;
@@ -98,4 +93,17 @@ body {
 
 .dropdown a:hover {
   background-color: #6a6a54;
+}
+
+
+
+.montserrat-Slate-Light {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+}
+
+html {
+  font-size: 75%; 
 }
