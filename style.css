@@ -107,3 +107,6 @@ body {
 html {
   font-size: 75%; 
 }
+p {
+  line-height: 1.4!important;
+}
