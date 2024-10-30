@@ -107,6 +107,13 @@ body {
 html {
   font-size: 75%; 
 }
+
+@media (max-width: 1250px) {
+  html {
+    font-size: 60%; 
+  }
+}
+
 p {
   line-height: 1.4!important;
 }
