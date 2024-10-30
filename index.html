@@ -60,7 +60,9 @@
           alt="Nav Bar Logo The Brigadeirão"
       /></a>
       <div class="menu-container sm:block md:hidden">
-        <button class="menu-toggle" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></button>
+        <button class="menu-toggle" onclick="toggleMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </button>
         <div class="dropdown" id="dropdownMenu">
           <a href="#Nos" onclick="closeMenu()">Sobre nós</a>
           <a href="#menu" onclick="closeMenu()">Menu</a>
@@ -69,7 +71,7 @@
           <a href="#Delivery" onclick="closeMenu()">Delivery</a>
         </div>
       </div>
-      
+
       <div
         class="max-sm:hidden sm:hidden md:flex lg:flex flex-row gap-5 items-center justify-around lg:w-[50vw] md:w-[60vw] mr-10"
       >
@@ -106,23 +108,41 @@
       <div
         class="w-[90vw] md:h-[80%] lg:h-[100%] flex justify-around items-center"
       >
-        <img class="h-[90%] " src="img/home1.png" alt="Bolo de Chocolate" />
-        <img class="h-[90%] max-sm:left-8 sm:left-14 max-sm:relative sm:relative lg:static md:static my-10" src="img/home2.png" alt="Brigadeiros" />
-        <img class="sm:absolute md:h-[90%] lg:h-[90%] max-sm:h-[80%] sm:h-[80%] max-sm:absolute lg:static md:static " src="img/home3.png" alt="Coxinha com queijo" />
+        <img class="h-[90%]" src="img/home1.png" alt="Bolo de Chocolate" />
+        <img
+          class="h-[90%] max-sm:left-8 sm:left-14 max-sm:relative sm:relative lg:static md:static my-10"
+          src="img/home2.png"
+          alt="Brigadeiros"
+        />
+        <img
+          class="sm:absolute md:h-[90%] lg:h-[90%] max-sm:h-[80%] sm:h-[80%] max-sm:absolute lg:static md:static"
+          src="img/home3.png"
+          alt="Coxinha com queijo"
+        />
       </div>
     </section>
-    <section class="w-[100vw] h-[333vh] md:py-40 lg:py-20 bg-white max-sm:text-center sm:text-center md:text-left lg:text-left space-y-16">
-      <article class="w-[100vw] h-[100vh] flex sm:flex-col max-sm:flex-col md:flex-row lg:flex-row justify-around items-center">
+    <section
+      class="w-[100vw] h-[333vh] md:py-40 lg:py-20 bg-white max-sm:text-center sm:text-center md:text-left lg:text-left space-y-16"
+    >
+      <article
+        class="w-[100vw] h-[100vh] flex sm:flex-col max-sm:flex-col md:flex-row lg:flex-row justify-around items-center"
+      >
         <div class="w-[40%] h-[100vh] flex items-center mt-10 justify-center">
           <img class="w-[90%]" src="img/Salgados.png" alt="coxinha crocante" />
         </div>
 
-        <div class="w-[40%] h-[100vh] flex flex-col justify-center lg:gap-10 md:gap-10 sm:gap-3 max-sm:gap-3">
-          <h2 class="sm:text-5xl max-sm:text-5xl lg:text-7xl md:text-6xl bebas-neue">
+        <div
+          class="w-[40%] h-[100vh] flex flex-col justify-center lg:gap-10 md:gap-10 sm:gap-3 max-sm:gap-3"
+        >
+          <h2
+            class="sm:text-5xl max-sm:text-5xl lg:text-7xl md:text-6xl bebas-neue"
+          >
             Salgados fritos <br />
             ou Congelados
           </h2>
-          <p class="sm:text-2xl max-sm:text-2xl lg:text-5xl md:text-4xl slate-light text-[#997453]">
+          <p
+            class="sm:text-2xl max-sm:text-2xl lg:text-5xl md:text-4xl slate-light text-[#997453]"
+          >
             Escolha entre diversos tipos <br />
             de mini salgados, desde <br />
             coxinha, bolinhas de queijo, <br />
@@ -143,19 +163,29 @@
         </div>
       </article>
 
-      <article class="sm:flex-col max-sm:flex-col md:flex-row lg:flex-row w-[100vw] h-[100vh] flex justify-around items-center">
-        <div class="w-[40%] h-[100vh] flex flex-col justify-center lg:gap-10 md:gap-10 sm:gap-3 max-sm:gap-3">
-            <div class="max-sm:flex sm:flex md:hidden lg:hidden max-sm:w-[43vw] sm:w-[43vw] md:w-[40%] lg:w-[40%] h-[100vh] flex items-center mt-60 justify-center">
-                <img
-                  class="w-[90%]"
-                  src="img/Brigadeiros.png"
-                  alt="brigadeiros gourmet premium"
-                />
-              </div>
-            <h2 class="sm:text-5xl max-sm:text-5xl lg:text-7xl md:text-6xl bebas-neue">
+      <article
+        class="sm:flex-col max-sm:flex-col md:flex-row lg:flex-row w-[100vw] h-[100vh] flex justify-around items-center"
+      >
+        <div
+          class="w-[40%] h-[100vh] flex flex-col justify-center lg:gap-10 md:gap-10 sm:gap-3 max-sm:gap-3"
+        >
+          <div
+            class="max-sm:flex sm:flex md:hidden lg:hidden max-sm:w-[43vw] sm:w-[43vw] md:w-[40%] lg:w-[40%] h-[100vh] flex items-center mt-60 justify-center"
+          >
+            <img
+              class="w-[90%]"
+              src="img/Brigadeiros.png"
+              alt="brigadeiros gourmet premium"
+            />
+          </div>
+          <h2
+            class="sm:text-5xl max-sm:text-5xl lg:text-7xl md:text-6xl bebas-neue"
+          >
             Brigadeiros Gourmet
           </h2>
-          <p class="sm:text-2xl max-sm:text-2xl lg:text-5xl md:text-4xl slate-light text-[#997453]">
+          <p
+            class="sm:text-2xl max-sm:text-2xl lg:text-5xl md:text-4xl slate-light text-[#997453]"
+          >
             Os melhores brigadeiros <br />
             gourmet com diversos sabores. <br />
             <strong>
@@ -176,7 +206,9 @@
           </button>
         </div>
 
-        <div class="max-sm:hidden sm:hidden md:block lg:block w-[40%] h-[100vh] flex items-center mt-10 justify-center">
+        <div
+          class="max-sm:hidden sm:hidden md:block lg:block w-[40%] h-[100vh] flex items-center mt-10 justify-center"
+        >
           <img
             class="w-[90%]"
             src="img/Brigadeiros.png"
@@ -193,9 +225,17 @@
           <img class="w-[90%]" src="img/Delivery.png" alt="coxinha crocante" />
         </div>
 
-        <div class="w-[40%] h-[100vh] flex flex-col justify-center lg:gap-10 md:gap-10 sm:gap-3 max-sm:gap-3">
-          <h2 class="sm:text-5xl max-sm:text-5xl lg:text-7xl md:text-6xl bebas-neue">Delivery</h2>
-          <p class=" sm:text-2xl max-sm:text-2xl lg:text-5xl md:text-4xl slate-light text-[#997453]">
+        <div
+          class="w-[40%] h-[100vh] flex flex-col justify-center lg:gap-10 md:gap-10 sm:gap-3 max-sm:gap-3"
+        >
+          <h2
+            class="sm:text-5xl max-sm:text-5xl lg:text-7xl md:text-6xl bebas-neue"
+          >
+            Delivery
+          </h2>
+          <p
+            class="sm:text-2xl max-sm:text-2xl lg:text-5xl md:text-4xl slate-light text-[#997453]"
+          >
             Levante ou receba a sua <br />
             encomenda! Garantimos <br />
             pontualidade e qualidade. <br />
@@ -216,28 +256,49 @@
         </div>
       </article>
     </section>
-    <section id="Nos" class="max-sm:text-center sm:text-center md:text-left lg:text-left w-[100vw] h-[110vh] bg-[#9f8264] py-10 text-white">
+    <section
+      id="Nos"
+      class="max-sm:text-center sm:text-center md:text-left lg:text-left w-[100vw] h-[110vh] bg-[#9f8264] py-10 text-white"
+    >
       <div class="w-[100%] h-[110%] flex items-end justify-end absolute py-10">
-        <img class="sm:w-[0vw] max-sm:w-[0vw] md:w-[30vw] lg:w-[25vw]" src="img/bkgAboutUs.png" alt="" />
+        <img
+          class="sm:w-[0vw] max-sm:w-[0vw] md:w-[30vw] lg:w-[25vw]"
+          src="img/bkgAboutUs.png"
+          alt=""
+        />
       </div>
-      <article class="w-[100%] h-[100%] flex sm:flex-col max-sm:flex-col md:flex-row lg:flex-row justify-around items-center">
-        <div class="w-[60%] h-[100%] flex flex-col pl-20 mt-10 justify-center max-sm:items-center sm:items-center md:items-start lg:items-start max-sm:gap-8 sm:gap-8 md:gap-10 lg:gap-10">
-            <div class="About-bkg-design w-[100%] h-[10%] sm:static max-sm:static md:hidden lg:hidden flex items-center mt-24 justify-start">
-                <img
-                    class="w-[90%] ml-[-20%] mt-[-50%] z-10 drop-shadow-[10px_10px_8px_rgba(0,0,0,0.33)]"
-                    src="img/Logo.png"
-                    alt="Logo The Brigadeirão"
-                />
-            </div>
-          <h2 class="max-sm:ml-[-45%] sm:ml-[-50%] md:ml-0 lg:ml-0 max-sm:text-center sm:text-center md:text-start lg:text-start max-sm:pl-2 sm:pl-8 md:pl-0 lg:pl-0 max-sm:text-5xl sm:text-5xl lg:text-7xl md:text-6xl bebas-neue">Sobre nós</h2>
-          <p class="sm:text-2xl max-sm:text-2xl max-sm:ml-[-45%] sm:ml-[-50%] md:ml-0 lg:ml-0 md:text-start lg:text-start max-sm:pl-2 sm:pl-8 md:pl-0 lg:pl-0 lg:text-5xl md:text-4xl slate-light">
+      <article
+        class="w-[100%] h-[100%] flex sm:flex-col max-sm:flex-col md:flex-row lg:flex-row justify-around items-center"
+      >
+        <div
+          class="w-[60%] h-[100%] flex flex-col pl-20 mt-10 justify-center max-sm:items-center sm:items-center md:items-start lg:items-start max-sm:gap-8 sm:gap-8 md:gap-10 lg:gap-10"
+        >
+          <div
+            class="About-bkg-design w-[100%] h-[10%] sm:static max-sm:static md:hidden lg:hidden flex items-center mt-24 justify-start"
+          >
+            <img
+              class="w-[90%] ml-[-20%] mt-[-50%] z-10 drop-shadow-[10px_10px_8px_rgba(0,0,0,0.33)]"
+              src="img/Logo.png"
+              alt="Logo The Brigadeirão"
+            />
+          </div>
+          <h2
+            class="max-sm:ml-[-45%] sm:ml-[-50%] md:ml-0 lg:ml-0 max-sm:text-center sm:text-center md:text-start lg:text-start max-sm:pl-2 sm:pl-8 md:pl-0 lg:pl-0 max-sm:text-5xl sm:text-5xl lg:text-7xl md:text-6xl bebas-neue"
+          >
+            Sobre nós
+          </h2>
+          <p
+            class="sm:text-2xl max-sm:text-2xl max-sm:ml-[-45%] sm:ml-[-50%] md:ml-0 lg:ml-0 md:text-start lg:text-start max-sm:pl-2 sm:pl-8 md:pl-0 lg:pl-0 lg:text-5xl md:text-4xl slate-light"
+          >
             Somos uma confeitaria<br />
             Brasileira, criada em 2023<br />
             com o sonho de levar o maravilhoso<br />
             mundo dos doces e salgados<br />
             brasileiros para a europa.
           </p>
-          <p class="sm:text-2xl max-sm:text-2xl max-sm:ml-[-28%] sm:ml-[-35%] md:ml-0 lg:ml-0 md:text-center lg:text-start max-sm:pl-2 sm:pl-8 md:pl-0 lg:pl-0 mr-11 lg:text-5xl md:text-4xl slate-light">
+          <p
+            class="sm:text-2xl max-sm:text-2xl max-sm:ml-[-28%] sm:ml-[-35%] md:ml-0 lg:ml-0 md:text-center lg:text-start max-sm:pl-2 sm:pl-8 md:pl-0 lg:pl-0 mr-11 lg:text-5xl md:text-4xl slate-light"
+          >
             Distribuimos para Porto e grande<br />
             porto ou se preferir pode retirar<br />
             em no centro de distribuição.
@@ -254,17 +315,19 @@
           />
         </div>
       </article>
+      <span id="menu"></span>
     </section>
     <section
-      id="menu"
-      class="w-[100vw] h-[260vh] bg-white flex flex-col items-center"
+      class="w-[100vw] h-[260vh] bg-white flex flex-col items-center max-sm:hidden sm:hidden md:flex lg:flex"
     >
       <div class="w-[90vw] h-[23vh] flex justify-around items-end">
-        <h3 class="bebas-neue text-[#686b56] sm:text-5xl max-sm:text-5xl lg:text-7xl md:text-6xl w-[36%]">
+        <h3
+          class="bebas-neue text-[#686b56] sm:text-5xl max-sm:text-5xl lg:text-7xl md:text-6xl w-[36%]"
+        >
           nosso&nbsp;menu
         </h3>
         <button
-          class="hover:scale-110 transition-all duration-300 max-sm:w-[200px] sm:w-[200px] md:w-[250px] lg:w-[250px] h-[9%] pt-8 py-8 px-8 green-gradient rounded-lg border-[3px] border-[#a4ff43] flex flex-row items-center justify-center"
+          class="hover:scale-110 transition-all duration-300 max-sm:scale-75 sm:scale-75 md:scale-100 lg:scale-100 max-sm:w-[200px] sm:w-[200px] md:w-[250px] lg:w-[250px] h-[9%] pt-8 py-8 px-8 green-gradient rounded-lg border-[3px] border-[#a4ff43] flex flex-row items-center justify-center"
         >
           <a
             class="sm:text-3xl max-sm:text-3xl lg:text-4xl md:text-4xl bebas-neue text-white flex flex-row items-center justify-center"
@@ -277,7 +340,7 @@
       </div>
 
       <article
-        class="rounded-3xl my-10 w-[68vw] h-[67vh] bg-[#efefef] flex justify-between p-4 items-center"
+        class="rounded-3xl my-10 w-[68vw] h-[67vh] bg-[#efefef] flex sm:flex-col max-sm:flex-col md:flex-row lg:flex-row justify-between p-4 items-center"
       >
         <img class="h-[100%]" src="img/Mini Salgados.png" alt="Mini Salgados" />
         <div class="flex flex-wrap w-[67%] h-[100%]">
@@ -286,106 +349,361 @@
               Mini Salgados
             </h2>
           </div>
-          <div class="lg:text-4xl md:text-5xl justify-around mb-10 flex flex-col w-[50%] text-[#686b56] slate-light">
+          <div
+            class="lg:text-4xl md:text-5xl justify-around mb-10 flex flex-col w-[50%] text-[#686b56] slate-light"
+          >
             <p>Coxinha de frango</p>
             <p>Bolinhas de queijo</p>
             <p>Almofadas de Fiambre</p>
             <p>Rissões de camarão</p>
             <p>Quibe</p>
           </div>
-          <div class="pr-5 pb-5 gap-2 flex flex-col items-end justify-end w-[50%] text-[#686b56] slate-light"></divclass>
+          <div
+            class="pr-5 pb-5 gap-2 flex flex-col items-end justify-end w-[50%] text-[#686b56] slate-light"
+          >
             <p class="lg:text-3xl md:text-4xl">100 Unid.</p>
             <p class="bebas-neue lg:text-6xl md:text-7xl">40,00€</p>
             <p class="lg:text-3xl md:text-4xl">Quantidade mímnima</p>
             <button
-            class="hover:scale-105 transition-all duration-300 w-[22vw] h-[9%] pt-8 py-8 px-8 green-gradient rounded-lg border-[3px] border-[#a4ff43] flex flex-row items-center justify-center">
-            <a
-              class="text-4xl bebas-neue text-white flex flex-row items-center justify-center"
-              target="_blank"
-              href="https://wa.me/351932271056"
+              class="hover:scale-105 transition-all duration-300 w-[22vw] h-[9%] pt-8 py-8 px-8 green-gradient rounded-lg border-[3px] border-[#a4ff43] flex flex-row items-center justify-center"
             >
-            Faça seu pedido
-            </a>
-          </button>
+              <a
+                class="text-4xl bebas-neue text-white flex flex-row items-center justify-center"
+                target="_blank"
+                href="https://wa.me/351932271056"
+              >
+                Faça seu pedido
+              </a>
+            </button>
           </div>
         </div>
       </article>
 
       <article
-      class="rounded-3xl my-10 w-[68vw] h-[67vh] bg-[#efefef] flex justify-between p-4 items-center"
+        class="rounded-3xl my-10 w-[68vw] h-[67vh] bg-[#efefef] flex justify-between p-4 items-center"
+      >
+        <img
+          class="h-[100%]"
+          src="img/Brigadeiros2.png"
+          alt="Brigadeiros Gourmet"
+        />
+        <div class="flex flex-wrap w-[67%] h-[100%]">
+          <div class="flex justify-start items-end w-[100%] h-[20%]">
+            <h2 class="text-[#686b56] lg:text-7xl md:text-6xl bebas-neue">
+              Brigadeiros
+            </h2>
+          </div>
+          <div
+            class="lg:text-4xl md:text-5xl justify-around mb-10 flex flex-col w-[50%] text-[#686b56] slate-light"
+          >
+            <p>Raffaelo</p>
+            <p>Nido com nutella</p>
+            <p>Pistache</p>
+            <p>Sensação</p>
+            <p>Churros</p>
+            <p>Paçoca</p>
+          </div>
+          <div
+            class="pr-5 pb-5 gap-2 flex flex-col items-end justify-end w-[50%] text-[#686b56] slate-light"
+          >
+            <p class="lg:text-3xl md:text-4xl">16 Unid.</p>
+            <p class="bebas-neue lg:text-6xl md:text-7xl">23,00€</p>
+            <p class="lg:text-3xl md:text-4xl">Quantidade mímnima</p>
+            <button
+              class="hover:scale-105 transition-all duration-300 w-[22vw] h-[9%] pt-8 py-8 px-8 green-gradient rounded-lg border-[3px] border-[#a4ff43] flex flex-row items-center justify-center"
+            >
+              <a
+                class="text-4xl bebas-neue text-white flex flex-row items-center justify-center"
+                target="_blank"
+                href="https://wa.me/351932271056"
+              >
+                Faça seu pedido
+              </a>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article
+        class="rounded-3xl my-10 w-[68vw] h-[67vh] bg-[#efefef] flex justify-between p-4 items-center"
+      >
+        <img
+          class="h-[100%]"
+          src="img/home1.png"
+          alt="Bolo de Chocolate caseiro"
+        />
+        <div class="flex flex-wrap w-[67%] h-[100%]">
+          <div class="flex justify-start items-end w-[100%] h-[20%]">
+            <h2 class="text-[#686b56] lg:text-7xl md:text-6xl bebas-neue">
+              Bolos caseiros
+            </h2>
+          </div>
+          <div
+            class="lg:text-4xl md:text-5xl justify-around mb-10 flex flex-col w-[50%] text-[#686b56] slate-light"
+          >
+            <p>Iogurte com frutas vermelhas</p>
+            <p>Brigadeiro negro</p>
+            <p>Brigadeiro branco</p>
+            <p>Milho</p>
+            <p>Prestigio</p>
+            <p>Doce de leite</p>
+          </div>
+          <div
+            class="pr-5 pb-5 gap-2 flex flex-col items-end justify-end w-[50%] text-[#686b56] slate-light"
+          >
+            <p class="lg:text-3xl md:text-4xl">2 kg</p>
+            <p class="bebas-neue lg:text-6xl md:text-7xl">35,00€</p>
+            <p class="lg:text-3xl md:text-4xl">1 Camada + Cobertura</p>
+            <button
+              class="hover:scale-105 transition-all duration-300 w-[22vw] h-[9%] pt-8 py-8 px-8 green-gradient rounded-lg border-[3px] border-[#a4ff43] flex flex-row items-center justify-center"
+            >
+              <a
+                class="text-4xl bebas-neue text-white flex flex-row items-center justify-center"
+                target="_blank"
+                href="https://wa.me/351932271056"
+              >
+                Faça seu pedido
+              </a>
+            </button>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section
+      class="w-[100vw] h-[600vh] mb-10 bg-white flex flex-col items-center max-sm:flex sm:flex md:hidden lg:hidden"
     >
-      <img class="h-[100%]" src="img/Brigadeiros2.png" alt="Brigadeiros Gourmet" />
-      <div class="flex flex-wrap w-[67%] h-[100%]">
-        <div class="flex justify-start items-end w-[100%] h-[20%]">
-          <h2 class="text-[#686b56] lg:text-7xl md:text-6xl bebas-neue">
-            Brigadeiros
-          </h2>
-        </div>
-        <div class="lg:text-4xl md:text-5xl justify-around mb-10 flex flex-col w-[50%] text-[#686b56] slate-light">
-          <p>Raffaelo</p>
-          <p>Nido com nutella</p>
-          <p>Pistache</p>
-          <p>Sensação</p>
-          <p>Churros</p>
-          <p>Paçoca</p>
-        </div>
-        <div class="pr-5 pb-5 gap-2 flex flex-col items-end justify-end w-[50%] text-[#686b56] slate-light"></divclass>
-          <p class="lg:text-3xl md:text-4xl">16 Unid.</p>
-          <p class="bebas-neue lg:text-6xl md:text-7xl">23,00€</p>
-          <p class="lg:text-3xl md:text-4xl">Quantidade mímnima</p>
-          <button
-          class="hover:scale-105 transition-all duration-300 w-[22vw] h-[9%] pt-8 py-8 px-8 green-gradient rounded-lg border-[3px] border-[#a4ff43] flex flex-row items-center justify-center">
+      <div class="w-[90vw] h-[23vh] flex justify-around items-end">
+        <h3 class="bebas-neue text-[#686b56] text-5xl w-[36%]">
+          nosso&nbsp;menu
+        </h3>
+        <button
+          class="hover:scale-90 transition-all duration-300 scale-75 w-[200px] h-[9%] pt-8 py-8 px-8 green-gradient rounded-lg border-[3px] border-[#a4ff43] flex flex-row items-center justify-center"
+        >
           <a
-            class="text-4xl bebas-neue text-white flex flex-row items-center justify-center"
+            class="text-3xl bebas-neue text-white flex flex-row items-center justify-center"
             target="_blank"
             href="https://wa.me/351932271056"
           >
-          Faça seu pedido
+            Contactar <i class="pl-4 fa-brands fa-whatsapp"></i>
           </a>
         </button>
+      </div>
+
+      <article
+        class="rounded-3xl my-10 w-[80vw] h-[200vh] bg-[#efefef] flex flex-col justify-start p-4 items-center"
+      >
+        <img class="h-[50%]" src="img/Mini Salgados.png" alt="Mini Salgados" />
+        <div class="flex flex-wrap w-[67%] h-[40%]">
+          <div class="flex justify-center items-center w-[100%] h-[20%]">
+            <h2 class="text-5xl text-[#686b56] bebas-neue">Mini Salgados</h2>
+          </div>
+          <div
+            class="h-[50%] text-4xl text-center justify-around items-center mb-16 flex flex-col w-[100%] text-[#686b56] slate-light"
+          >
+            <p>Coxinha de frango</p>
+            <p>Bolinhas de queijo</p>
+            <p>Almofadas de Fiambre</p>
+            <p>Rissões de camarão</p>
+            <p>Quibe</p>
+          </div>
+          <div
+            class="h-[40%] flex flex-col items-center justify-center w-[100%] text-[#686b56] slate-light"
+          >
+            <p class="text-3xl">100 Unid.</p>
+            <p class="text-6xl bebas-neue">40,00€</p>
+            <p class="text-3xl">Quantidade mímnima</p>
+            <button
+              class="hover:scale-[.8] transition-all duration-300 scale-75 w-[90vw] bg-[#686b56] h-[9%] pt-8 py-8 px-8 rounded-xl flex flex-row items-center justify-center"
+            >
+              <a
+                class="text-3xl bebas-neue text-white flex flex-row items-center justify-center"
+                target="_blank"
+                href="https://wa.me/351932271056"
+              >
+                Faça seu pedido
+              </a>
+            </button>
+          </div>
         </div>
-      </div>
-    </article>
+      </article>
 
-    <article
-    class="rounded-3xl my-10 w-[68vw] h-[67vh] bg-[#efefef] flex justify-between p-4 items-center"
-  >
-    <img class="h-[100%]" src="img/home1.png" alt="Bolo de Chocolate caseiro" />
-    <div class="flex flex-wrap w-[67%] h-[100%]">
-      <div class="flex justify-start items-end w-[100%] h-[20%]">
-        <h2 class="text-[#686b56] lg:text-7xl md:text-6xl bebas-neue">
-            Bolos caseiros
-        </h2>
-      </div>
-      <div class="lg:text-4xl md:text-5xl justify-around mb-10 flex flex-col w-[50%] text-[#686b56] slate-light">
-        <p>Iogurte com frutas vermelhas</p>
-        <p>Brigadeiro negro</p>
-        <p>Brigadeiro branco</p>
-        <p>Milho</p>
-        <p>Prestigio</p>
-        <p>Doce de leite</p>
-      </div>
-      <div class="pr-5 pb-5 gap-2 flex flex-col items-end justify-end w-[50%] text-[#686b56] slate-light"></divclass>
-        <p class="lg:text-3xl md:text-4xl">2 kg</p>
-        <p class="bebas-neue lg:text-6xl md:text-7xl">35,00€</p>
-        <p class="lg:text-3xl md:text-4xl">1 Camada + Cobertura</p>
-        <button
-        class="hover:scale-105 transition-all duration-300 w-[22vw] h-[9%] pt-8 py-8 px-8 green-gradient rounded-lg border-[3px] border-[#a4ff43] flex flex-row items-center justify-center">
-        <a
-          class="text-4xl bebas-neue text-white flex flex-row items-center justify-center"
-          target="_blank"
-          href="https://wa.me/351932271056"
+      <article
+        class="rounded-3xl my-10 w-[80vw] h-[200vh] bg-[#efefef] flex flex-col justify-start p-4 items-center"
+      >
+        <img
+          class="h-[50%]"
+          src="img/Brigadeiros2.png"
+          alt="Brigadeiros Gourmet"
+        />
+        <div class="flex flex-wrap w-[67%] h-[40%]">
+          <div class="flex justify-center items-center w-[100%] h-[20%]">
+            <h2 class="text-5xl text-[#686b56] bebas-neue">Brigadeiros</h2>
+          </div>
+          <div
+            class="h-[50%] text-4xl text-center justify-around items-center mb-16 flex flex-col w-[100%] text-[#686b56] slate-light"
+          >
+            <p>Raffaelo</p>
+            <p>Nido com nutella</p>
+            <p>Pistache</p>
+            <p>Sensação</p>
+            <p>Churros</p>
+            <p>Paçoca</p>
+          </div>
+          <div
+            class="h-[40%] flex flex-col items-center justify-center w-[100%] text-[#686b56] slate-light"
+          >
+            <p class="text-3xl">16 Unid.</p>
+            <p class="text-6xl bebas-neue">23,00€</p>
+            <p class="text-3xl">Quantidade mímnima</p>
+            <button
+              class="hover:scale-[.8] transition-all duration-300 scale-75 w-[90vw] bg-[#686b56] h-[9%] pt-8 py-8 px-8 rounded-xl flex flex-row items-center justify-center"
+            >
+              <a
+                class="text-3xl bebas-neue text-white flex flex-row items-center justify-center"
+                target="_blank"
+                href="https://wa.me/351932271056"
+              >
+                Faça seu pedido
+              </a>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article
+        class="rounded-3xl my-10 w-[80vw] h-[200vh] bg-[#efefef] flex flex-col justify-start p-4 items-center"
+      >
+        <img
+          class="h-[50%]"
+          src="img/home1.png"
+          alt="Bolo de Chocolate caseiro"
+        />
+        <div class="flex flex-wrap w-[67%] h-[40%]">
+          <div class="flex justify-center items-center w-[100%] h-[20%]">
+            <h2 class="text-5xl text-[#686b56] bebas-neue">Bolos caseiros</h2>
+          </div>
+          <div
+            class="h-[50%] text-4xl text-center justify-around items-center mb-16 flex flex-col w-[100%] text-[#686b56] slate-light"
+          >
+            <p>Iogurte com frutas vermelhas</p>
+            <p>Brigadeiro negro</p>
+            <p>Brigadeiro branco</p>
+            <p>Milho</p>
+            <p>Prestigio</p>
+            <p>Doce de leite</p>
+          </div>
+          <div
+            class="h-[40%] flex flex-col items-center justify-center w-[100%] text-[#686b56] slate-light"
+          >
+            <p class="text-3xl">2 kg</p>
+            <p class="text-6xl bebas-neue">35,00€</p>
+            <p class="text-3xl">1 Camada + Cobertura</p>
+            <button
+              class="hover:scale-[.8] transition-all duration-300 scale-75 w-[90vw] bg-[#686b56] h-[9%] pt-8 py-8 px-8 rounded-xl flex flex-row items-center justify-center"
+            >
+              <a
+                class="text-3xl bebas-neue text-white flex flex-row items-center justify-center"
+                target="_blank"
+                href="https://wa.me/351932271056"
+              >
+                Faça seu pedido
+              </a>
+            </button>
+          </div>
+        </div>
+      </article>
+    </section>
+    <span id="Form"></span>
+    <section
+      class="w-[100vw] h-[150vh] bg-[#efefef] text-[#9f8264] max-sm:block sm:block md:hidden lg:hidden"
+    >
+      <article
+        class="w-[100%] h-[100%] flex flex-col justify-around items-center"
+      >
+        <div
+          class="w-[100%] h-[100vh] flex flex-col items-center mt-10 justify-center gap-2"
         >
-        Faça seu pedido
-        </a>
-      </button>
-      </div>
-    </div>
-  </article>
+          <h2 class="text-5xl text-center bebas-neue w-[100%] mt-10">
+            FAÇA SUA ENCOMENDA
+          </h2>
+          <form class="w-[80vw]">
+            <div>
+              <label for="nome" class="text-xl relative left-3 top-10 text-[#556351]"
+                >Nome:</label
+              >
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                required
+                class="indent-14 border-[#556351] w-full px-4 py-4 border rounded-sm focus:outline-none focus:ring-2 focus:ring-[#9f8264]"
+              />
+            </div>
 
+            <div>
+              <label for="tel" class="absolute pt-6 pl-3 text-xl text-[#556351]"
+                >Telm:</label
+              >
+              <input
+                type="tel"
+                id="tel"
+                name="tel"
+                required
+                class="w-full indent-16 border-[#556351] py-4 my-3 border rounded-sm focus:outline-none focus:ring-2 focus:ring-[#9f8264]"
+              />
+            </div>
+            <div>
+              <label for="email" class="absolute pt-4 pl-3 text-xl text-[#556351]"
+                >Email:</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                class="w-full indent-16 border-[#556351] py-4 border rounded-sm focus:outline-none focus:ring-2 focus:ring-[#9f8264]"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="mensagem" class="relative left-3 text-xl top-8 text-[#556351]"
+                >Mensagem:</label
+              >
+              <textarea
+                id="mensagem"
+                name="mensagem"
+                required
+                class="pt-8 resize-none border-[#556351] w-full px-4 py-4 border rounded-sm focus:outline-none focus:ring-2 focus:ring-[#9f8264] h-32"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="relative w-[100%] bg-[#3e3e3e] text-white bebas-neue text-2xl py-2 px-4 rounded-lg hover:bg-[#9f8264] focus:outline-none focus:ring-2 focus:ring-[#9f8264] transition-all duration-300"
+            >
+              ENVIAR
+            </button>
+          </form>
+        </div>
+        <div
+          class="w-[100%] h-[30vh] flex flex-col items-center mb-20 justify-center gap-10"
+        >
+          <h2 class="text-5xl bebas-neue mb-10">ATENDIMENTO</h2>
+          <p class="text-3xl slate-light">
+            Email:<br />
+            Thebrigadeirao@gmail.com
+          </p>
+          <p class="mr-24 text-3xl slate-light">
+            Fone:<br />
+            +351 932 271 056
+          </p>
+        </div>
+      </article>
     </section>
 
-    <section id="Form" class="w-[100vw] h-[100vh] bg-[#efefef] text-[#9f8264]">
+    <section
+      class="w-[100vw] h-[100vh] bg-[#efefef] text-[#9f8264] max-sm:hidden sm:hidden md:block lg:block"
+    >
       <article class="w-[100%] h-[100%] flex justify-around items-center">
         <div
           class="w-[40%] h-[100%] flex flex-col items-left pl-20 mt-10 justify-center gap-20"
@@ -466,8 +784,6 @@
         </div>
       </article>
     </section>
-
-
 
     <footer
       id="Footer"
