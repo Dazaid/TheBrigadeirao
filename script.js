@@ -1,9 +1,15 @@
-function toggleMenu() {
-    const menu = document.getElementById("dropdownMenu");
-    menu.style.display = menu.style.display === "block" ? "none" : "block";
+document.addEventListener("DOMContentLoaded", function() {
+  const menu = document.getElementById("dropdownMenu");
+  const menuToggle = document.getElementById("menuToggle");
+
+  menuToggle.addEventListener("click", toggleMenu);
+  menu.addEventListener("click", closeMenu);
+
+  function toggleMenu() {
+    menu.classList.toggle("hidden");
   }
-  
+
   function closeMenu() {
-    document.getElementById("dropdownMenu").style.display = "none";
+    menu.classList.add("hidden");
   }
-  
+});
