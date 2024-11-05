@@ -5,11 +5,15 @@ document.addEventListener("DOMContentLoaded", () => {
   menu.addEventListener("click", () => menu.classList.add("hidden"));
 });
 
-window.addEventListener('resize', function() {
+function checkResize() {
   if (window.innerWidth < 640 && window.location.pathname !== '/m.html') {
     window.location.href = "m.html";
   }
   if (window.innerWidth > 640 && window.location.pathname == '/m.html') {
     window.location.href = "index.html";
   }
-});
+}
+
+window.addEventListener('load', checkResize);
+
+window.addEventListener('resize', checkResize);
