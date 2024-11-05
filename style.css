@@ -15,8 +15,6 @@ body {
   font-style: normal;
 }
 
-
-
 .slate-light {
   font-family: "Slate Light", sans-serif;
   font-weight: 500;
@@ -44,12 +42,12 @@ body {
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#49a84d",endColorstr="#90ff61",GradientType=1);
 }
-.kon-gradient{
-    background: #000000;
-    background: linear-gradient(to right, #000000 20%, #000000 50%, #000000 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 0.3s ease-in-out;
+.kon-gradient {
+  background: #000000;
+  background: linear-gradient(to right, #000000 20%, #000000 50%, #000000 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
 }
 
 .kon-gradient:hover {
@@ -59,7 +57,6 @@ body {
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
 }
-
 
 .menu-container {
   position: relative;
@@ -74,17 +71,24 @@ body {
 }
 
 html {
-  font-size: 75%; 
+  font-size: 75%;
 }
 
 @media (max-width: 1250px) {
   html {
-    font-size: 55%; 
+    font-size: 85%;
+  }
+  .kon-gradient {
+    color: black;
+  }
+
+  .kon-gradient:hover {
+    color: black;
   }
 }
 
 p {
-  line-height: 1.4!important;
+  line-height: 1.4 !important;
 }
 
 /* Estilos del menú desplegable */
@@ -92,14 +96,13 @@ p {
   background-color: #808066;
   padding: 20px;
   position: absolute;
-  top: 50px;            /* Ubicación vertical */
-  right: 0;             /* Alineación a la derecha en lugar de left: 0 */
+  top: 50px; /* Ubicación vertical */
+  right: 0; /* Alineación a la derecha en lugar de left: 0 */
   width: 70vw;
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   display: none;
 }
-
 
 /* Mostrar el menú cuando se remueve la clase hidden */
 #dropdownMenu:not(.hidden) {
@@ -108,11 +111,10 @@ p {
 
 /* Estilos para los enlaces del menú */
 #dropdownMenu a {
-  display: block;               /* Cada enlace en una línea */
-  color: white;                 /* Color de texto */
-  text-decoration: none;        /* Quita subrayado */
-  padding: 10px 0;              /* Espaciado vertical entre enlaces */
-  font-size: 1.1em;             /* Tamaño de fuente */
-  text-align: center;           /* Centra el texto */
+  display: block; /* Cada enlace en una línea */
+  color: white; /* Color de texto */
+  text-decoration: none; /* Quita subrayado */
+  padding: 10px 0; /* Espaciado vertical entre enlaces */
+  font-size: 1.1em; /* Tamaño de fuente */
+  text-align: center; /* Centra el texto */
 }
-
